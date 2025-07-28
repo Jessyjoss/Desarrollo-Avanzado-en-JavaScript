@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador de Pedidos</title>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de pedidos</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .order { margin-bottom: 8px; }
+    .cancel-btn { margin-left: 8px; }
+  </style>
 </head>
 <body>
-    <h1>Cafetería: Simulador de Pedidos</h1>
-    <button id="addOrderBtn">Agregar Pedido</button>
-    <ul id="orderList"></ul>
-    <script src="app.js"></script>
+  <h1>Simulador de pedidos en cafeteria</h1>
+  <select id="orderType">
+    <option value="Frappuccino">Frappuccino</option>
+    <option value="Hot cakes">Hot cakes</option>
+    <option value="Café Americano">Café Americano</option>
+    <option value="Café expresso">Café expresso</option>
+    <option value="Sandwich">Sandwich</option>
+    <option value="Pastel de chocolate">Pastel de chocolate</option>
+    <option value="Café helado">Café helado</option>
+    <option value="Café Latte Vainilla">Café Latte Vainilla</option>
+    <option value="Capuccino Moka">Capuccino Moka</option>
+  </select>
+  <button id="addOrderBtn">Agregar Pedido</button>
+  <ul id="orderList"></ul>
+
+  <script src="app.js"></script>
 </body>
 </html>
+
