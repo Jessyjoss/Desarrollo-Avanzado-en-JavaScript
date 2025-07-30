@@ -1,0 +1,10 @@
+{
+  "libros": [
+    { "titulo": "La cenicienta", "autor": "Charles Perrault", "genero": "Cuento de hadas", "disponible": true },
+    { "titulo": "Alicia en el país de las maravillas", "autor": "Lewis Carroll", "genero": "Fantasía", "disponible": true },
+    { "titulo": "La bella y la bestia", "autor": "Versión tradicional", "genero": "Cuento de hadas", "disponible": true },
+    { "titulo": "El principito", "autor": "Antoine de Saint‑Exupéry", "genero": "Fábula", "disponible": true },
+    { "titulo": "Hansel y Gretel", "autor": "Hermanos Grimm", "genero": "Cuento de hadas", "disponible": true }
+  ]
+}
+
